@@ -23,12 +23,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    UILabel *tip = [[UILabel alloc] initWithFrame:CGRectMake(20, 200, self.view.frame.size.width - 40, 90)];
-    tip.textAlignment = NSTextAlignmentCenter;
+    UILabel *tip = [[UILabel alloc] initWithFrame:CGRectMake(20, 200, self.view.frame.size.width - 40, 120)];
+    tip.textAlignment = NSTextAlignmentLeft;
     tip.textColor = [UIColor redColor];
     tip.numberOfLines = 0;
     tip.font = [UIFont fontWithName:@"PingFang-SC-Light" size:20];
-    tip.text = @"当你能把Runtime用在实际的场景中，你才可以说你知道Runtime!";
+    tip.text = @"当你能在实际的应用场景中游刃有余的使用Runtime去改善项目的性能和安全时,你才能真正感受到Runtime的魅力！";
     [self.view addSubview:tip];
     
     [self testRuntime];

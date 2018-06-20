@@ -7,7 +7,7 @@
 //
 
 #import "Test.h"
-#import "AddMethod.h"
+#import "Test+AddMethod.h"
 #import "GCRuntimeKit.h"
 
 @interface Test(){
@@ -72,7 +72,7 @@
  */
 - (id)forwardingTargetForSelector:(SEL)aSelector {
     return self;
-    return [AddMethod new];   //让AddMethod中相应的SEL去执行该方法
+    return [Test new];   //让AddMethod中相应的SEL去执行该方法
 }
 
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)selector {
@@ -86,7 +86,7 @@
 }
 
 - (void)forwardInvocation:(NSInvocation *)invocation {
-    AddMethod * forwardClass = [AddMethod new];
+    Test * forwardClass = [Test new];
     SEL sel = invocation.selector;
     if ([forwardClass respondsToSelector:sel]) {
         [invocation invokeWithTarget:forwardClass];

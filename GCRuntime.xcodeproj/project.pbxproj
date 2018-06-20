@@ -18,7 +18,7 @@
 		6586E0F820D9F65100099A7B /* Test+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6586E0F720D9F65100099A7B /* Test+Category.m */; };
 		6586E0FB20D9F6C500099A7B /* Test+SwwingMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6586E0FA20D9F6C500099A7B /* Test+SwwingMethod.m */; };
 		6586E0FE20D9FB9C00099A7B /* Test+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6586E0FD20D9FB9C00099A7B /* Test+AssociatedObject.m */; };
-		6586E10120DA118C00099A7B /* AddMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6586E10020DA118C00099A7B /* AddMethod.m */; };
+		6586E10420DA190000099A7B /* Test+AddMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6586E10320DA190000099A7B /* Test+AddMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +42,8 @@
 		6586E0FA20D9F6C500099A7B /* Test+SwwingMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Test+SwwingMethod.m"; sourceTree = "<group>"; };
 		6586E0FC20D9FB9C00099A7B /* Test+AssociatedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test+AssociatedObject.h"; sourceTree = "<group>"; };
 		6586E0FD20D9FB9C00099A7B /* Test+AssociatedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Test+AssociatedObject.m"; sourceTree = "<group>"; };
-		6586E0FF20DA118C00099A7B /* AddMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddMethod.h; sourceTree = "<group>"; };
-		6586E10020DA118C00099A7B /* AddMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddMethod.m; sourceTree = "<group>"; };
+		6586E10220DA190000099A7B /* Test+AddMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test+AddMethod.h"; sourceTree = "<group>"; };
+		6586E10320DA190000099A7B /* Test+AddMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Test+AddMethod.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +84,10 @@
 				6586E0F120D9E8DD00099A7B /* GCRuntimeKit.m */,
 				6586E0F320D9F3AA00099A7B /* Test.h */,
 				6586E0F420D9F3AA00099A7B /* Test.m */,
-				6586E0FF20DA118C00099A7B /* AddMethod.h */,
-				6586E10020DA118C00099A7B /* AddMethod.m */,
 				6586E0F620D9F65100099A7B /* Test+Category.h */,
 				6586E0F720D9F65100099A7B /* Test+Category.m */,
+				6586E10220DA190000099A7B /* Test+AddMethod.h */,
+				6586E10320DA190000099A7B /* Test+AddMethod.m */,
 				6586E0F920D9F6C500099A7B /* Test+SwwingMethod.h */,
 				6586E0FA20D9F6C500099A7B /* Test+SwwingMethod.m */,
 				6586E0FC20D9FB9C00099A7B /* Test+AssociatedObject.h */,
@@ -172,10 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6586E10420DA190000099A7B /* Test+AddMethod.m in Sources */,
 				6586E0F520D9F3AA00099A7B /* Test.m in Sources */,
 				6586E0FB20D9F6C500099A7B /* Test+SwwingMethod.m in Sources */,
 				6586E0DF20D9E7A100099A7B /* ViewController.m in Sources */,
-				6586E10120DA118C00099A7B /* AddMethod.m in Sources */,
 				6586E0EA20D9E7A100099A7B /* main.m in Sources */,
 				6586E0FE20D9FB9C00099A7B /* Test+AssociatedObject.m in Sources */,
 				6586E0F820D9F65100099A7B /* Test+Category.m in Sources */,
